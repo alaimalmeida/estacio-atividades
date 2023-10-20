@@ -1,0 +1,82 @@
+body{
+    background-color: #e9967a;
+    overflow-y: auto;
+}
+/* header{
+    width: 60px;
+}
+main{
+    content: calc(100vh - 100px);
+}*/
+footer{
+    height: 25px;
+} 
+nav{
+    margin-bottom: 3%;
+}
+
+.nav-item a{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #525050;
+    /* padding-bottom: 8%;
+    padding-top: 5%; */
+}
+.nav-item {
+    /* padding-top: 12px; */
+    /* margin-bottom: 2%; */
+}
+.nav-item a{
+    color: #525050;
+    text-decoration: none;
+}
+
+.boas-vindas {
+    margin: 8% 0;
+    text-align: center;
+}
+.boas-vindas h1 {
+    font-family: serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.boas-vindas h2{
+    font-family: serif;
+    font-weight: bold;
+}
+
+.footer-home {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    /* padding: 10px 0; */
+    font-weight: bold;
+    /* font-size: 1.3rem; */
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0;
+}
+footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    /* padding: 10px 0; */
+    font-weight: bold;
+    /* font-size: 1.3rem; */
+    /* bottom: 0;
+    position: fixed; */
+    width: 100%;
+    /* margin-bottom: 0; */
+}
+footer p{
+    /* margin: 0; */
+    padding: 0;
+    font-family: serif;
+    font-weight: bold;
+}
+.text-visited a{
+    color: #fff !important;
+}

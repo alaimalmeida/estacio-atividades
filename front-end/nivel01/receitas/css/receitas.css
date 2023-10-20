@@ -1,0 +1,61 @@
+header{
+    height: 60px;
+}
+main{
+    content: calc(100vh - 100px);
+}
+footer{
+    height: 25px;
+}
+.receitas {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    justify-content: center;
+    padding: 0 20px;
+    
+}
+.card{
+    /* width: 200px; */
+    background-color: #f9fad2;
+    /* margin: 0 5px; */
+    padding: 10px;
+    height: 100%;
+}
+
+.box img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.box h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.box li{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.box p {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 24px;
+}
+
+.nav-item {
+    /* padding-top: 12px; */
+    /* margin-bottom: 2%; */
+}
+.nav-item a{
+    color: #525050;
+    text-decoration: none !important;
+}
+nav{
+    margin-bottom: 3%;
+}
+.text-visited a{
+    color: #fff !important;
+}

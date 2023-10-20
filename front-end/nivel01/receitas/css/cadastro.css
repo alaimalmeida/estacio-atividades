@@ -1,0 +1,43 @@
+.formulario{
+    padding-top: 2%;
+}
+.form-label{
+    padding-right: 10%;
+}
+.form-group{
+    padding: 8px 0;
+}
+.text-r{
+    padding-left: 3%;
+}
+.btn-cadas{
+    margin-left: 40%;
+    background-color: #2d2b2b;
+    padding-left: 60%;
+    padding-right: 60%;
+}
+footer {
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 0;
+}
+.text-visited a{
+    color: #fff !important;
+}
+header{
+    height: 60px;
+}
+main{
+    content: calc(100vh - 100px);
+}
+footer{
+    height: 25px;
+}
+.titulo-form{
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: serif;
+}
+h1{
+    font-weight: bold;
+}

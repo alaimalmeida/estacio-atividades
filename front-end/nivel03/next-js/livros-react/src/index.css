@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.titulo-tabela th  {
+  background-color: #000 !important;
+  padding: 2%;
+  color: #fff;
+  text-align: center;
+}
+.titulo{
+  padding: 90%;
+}
+
+.botao button {
+  background-color: red !important;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+}
+.secao_livro{
+  text-align: center;
+}
+
+.conteudo{
+  text-align: -webkit-center;
+}
+
+.menu {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.nav-item a{
+  color: #fff;
+}
+.nav-item  a:focus{
+  color: #ddd;
+}
+.nav-item a:hover{
+  color: #b51e1e
+}

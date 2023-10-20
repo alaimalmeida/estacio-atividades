@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Meu primeiro site "cringe"</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/formato.css" rel="stylesheet">
+        <link href="css/receitas.css" rel="stylesheet">
+        <link href="css/cadastro.css" rel="stylesheet">
+    </head> 
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link"  href="home.html">Home</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="receitas.html">Receitas</a>
+                      </li>
+
+                      <li class="nav-item text-visited">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </header>      
+
+        <main>
+            <section class="container-fluid formulario">
+                <div class="row">
+                    <h1>Efetue seu Cadastro</h1>
+                    <form class="form-horizontal" action="https://formspree.io/f/xbjvqbvp" method="POST">
+                                               
+                        <!-- Form Name -->
+                        <!-- <legend>Form Name</legend> -->
+                        
+                        <!-- Text input-->
+                        <div class="form-group d-flex">
+                            <label class="col-md-2 control-label titulo-form" for="nome">Nome</label>  
+                            <div class="col-md-7">
+                                <input id="name" name="nome" type="text" placeholder="" class="form-control input-md" required>
+                            
+                            </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group d-flex">
+                            <label class="col-md-2 control-label titulo-form" for="email">E-mail</label>  
+                            <div class="col-md-7">
+                                <input id="email" name="email" type="email" placeholder="" class="form-control input-md" required>
+                            
+                            </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group d-flex">
+                            <label class="col-md-2 control-label titulo-form" for="cep">CEP</label>  
+                            <div class="col-md-3">
+                                <input id="cep" name="cep" type="number" placeholder="" class="form-control input-md">
+                            
+                            </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group d-flex">
+                            <label class="col-md-2 control-label titulo-form" for="rua">Rua</label>  
+                            <div class="col-md-7">
+                                <input id="rua" name="rua" type="text" placeholder="" class="form-control input-md">
+                            
+                            </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group d-flex">
+                            <label class="col-md-2 control-label titulo-form" for="numero">Nº</label>  
+                            <div class="col-md-2">
+                                <input id="numero" name="numero" type="number" placeholder="" class="form-control input-md">
+                            </div>
+
+                            <label class="col-md-2 control-label text-r titulo-form" for="complemento">Complemento</label>  
+                            <div class="col-md-3">
+                                <input id="complemento" name="complemento" type="text" placeholder="" class="form-control input-md">
+                            
+                            </div>
+                        </div>
+                        
+                        <!-- Text input-->
+                        <div class="form-group d-flex">
+                            <label class="col-md-2 control-label titulo-form" for="cidade">Cidade</label>  
+                            <div class="col-md-5">
+                                <input id="cidade" name="cidade" type="text" placeholder="" class="form-control input-md">
+                            
+                            </div>
+
+                            <label class="col-md-1 control-label text-r titulo-form" for="uf">UF</label>  
+                            <div class="col-md-1">
+                                <input id="uf" name="uf" type="text" placeholder="" class="form-control input-md">
+                            </div>
+
+                            <div class="col-md-">
+                                <button id="submit" name="submit" class="btn btn-primary btn-cadas">Cadastrar</button>
+                            </div>
+                        </div>
+                    </form>                    
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p>&copy; Jurema 2023</p>
+            </div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+    </body>
+</html>

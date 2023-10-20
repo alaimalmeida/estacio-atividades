@@ -1,0 +1,29 @@
+.estilo {
+    background-color: #e6e6e6;
+    color: #000;
+}
+.apresentacao{
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* Css Catálogo de receitas  */
+.pnlCatalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+h1{
+    text-align: center;
+    padding: 2% 0;
+}
+.card{
+    margin: 1%;
+}
+
+/* Css Usuários  */
+
+footer p {
+    font-weight: bold;
+}

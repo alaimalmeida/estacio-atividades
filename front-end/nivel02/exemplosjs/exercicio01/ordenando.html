@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios ordenando valores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../exercicio01/ordenando.html">Ordenando Valores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../exercicio02/receitas.html">Receitas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../exercicio03/usuarios.html">Usuários</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="col-5">
+                <h1>Ordenando Valores</h1>
+                <label class="col-md-4 control-label" for="textinput">Valor</label>
+                <div class="col-md-12">
+                    <input type="number" id="valor" name="number" class="form-control input-md">
+                </div>
+
+                <br>
+
+                <button class="btn btn-primary" onclick="add()">Adicionar</button>
+
+                <hr>
+
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <select id="sortSelector" name="selectbasic" class="form-control">
+                            <option value="bubbleSort">Blubble Sort</option>
+                            <option value="selectionSort">Selection Sort</option>
+                            <option value="quickSort">Quick Sort</option>
+                        </select>
+                        <br>
+
+                        <button onclick="ordenarLista()" name="ordenar" class="btn btn-primary">Ordenar</button>
+
+                        <button onclick="misturarLista()" id="misturar" name="misturar"
+                            class="btn btn-primary">Misturar</button>
+                    </div>
+                </div>
+
+                <br>
+                <hr>
+                <ul id="numberList"></ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="ordenando.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

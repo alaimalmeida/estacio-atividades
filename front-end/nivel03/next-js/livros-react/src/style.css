@@ -1,0 +1,28 @@
+.titulo-tabela tr {
+  background-color: #000 !important;
+  padding: 2%;
+  color: #fff;
+}
+
+.titulo th {
+  background-color: #000 !important;
+}
+
+.conteudo tr {
+  background-color: #000 !important;
+}
+
+.titulo {
+  padding: 90%;
+}
+
+.botao {
+  background-color: red !important;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.menu {
+  background-color: #000 !important;
+  color: #fff !important;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+    </head>
+    <body>
+
+        <div id="resultado">Resultado</div>
+
+    <script>
+        const num1 = prompt('Digite um número');
+        const num2 = prompt('Digite um número');
+
+        const resultado = document.getElementById('resultado');
+
+        const lista = [];
+
+        lista.push(num1, num2);
+        console.log(lista);
+
+        if (num1 > 0 && num2 > 0){
+            resultadoOperacao = divisao (num1, num2)
+        }else{
+            alert('Insira números inteiros e positivos corretamente!')
+        };        
+
+        // Resultado divisão
+        function divisao (num1, num2){
+            return num1 / num2;
+        }
+        console.log(resultadoOperacao);
+        resultado.innerHTML = `<p>O resultado é ${resultadoOperacao}</p>`;
+    </script>
+    </body>
+</html>
+
